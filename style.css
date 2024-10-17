@@ -1,10 +1,10 @@
 
 .principal {
-    width: 100 vw;
+    width: 100 vh;
     display: flex;
     align-items: center;
-    padding: 20% 20%;
-    justify-content: space-evenly;
+    justify-content: space-between;
+    margin: 10%;
     
     
 }
