@@ -1,0 +1,31 @@
+
+.principal {
+    width: 100 vw;
+    display: flex;
+    padding: 20% 20%;
+    justify-content: space-evenly;
+    
+    
+}
+body{
+    background-color: #000000;
+    color: #F6F6F6;
+}
+.texto-destacado{
+    color: yellow;
+    
+}
+.titulo-blog{
+    color: green;
+}
+.urgente{
+    color: red;
+}
+strong{
+    color: #22D4FD;
+}
+
+.imagen{
+    width: 40%;
+    margin: 20px;
+}
