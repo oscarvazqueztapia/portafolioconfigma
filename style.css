@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Krona+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Krona+One&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
 
 .principal {
     width: 100 vh;
@@ -8,20 +11,41 @@
     
     
 }
+.principal__contenido{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 615px;
+    height: 482px;
+    top: 289px;
+    left: 345px;
+    gap: 0px;
+    opacity: 0px;
+       
+}
 body{
     background-color: #000000;
     color: #F6F6F6;
 }
-.texto-destacado{
-    color: yellow;
+.principal__contenido__texto{
+    color: #F6F6F6;
+    font-family: "Montserrat", sans-serif;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 36px;
+    text-align: left;
+    
+
     
 }
-.titulo-blog{
-    color: green;
+.principal__contenido__titulo{
+    color: #F6F6F6;
+    font-family: Krona One;
+    font-size: 36px;
+    font-weight: 400;
+    text-align: left;
 }
-.urgente{
-    color: red;
-}
+
 strong{
     color: #22D4FD;
 }
