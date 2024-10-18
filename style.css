@@ -3,7 +3,7 @@
 
 
 .principal {
-    width: 100 vh;
+    
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -17,6 +17,7 @@
     align-items: center;
     width: 615px;
     height: 482px;
+    padding: 0%;
     
     
     
@@ -100,6 +101,13 @@ strong{
 }
 
 .imagen{
-    width: 40%;
+    
     margin: 20px;
+    width: 488px;
+    height: 550px;
+    top: 235px;
+    left: 1030px;
+    gap: 0px;
+    opacity: 0px;
+
 }
