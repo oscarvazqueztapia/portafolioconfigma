@@ -1,9 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Krona+One&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Krona+One&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
 *{
-     /* padding: 0;
-    margin: 0; */
-    
+     
 }
 body{
         /*height: 100vh; */
@@ -63,12 +61,21 @@ a{
 }
 .principal__contenido{
     
-    align-items: center;
+   align-items: flex-start;
     width: 100vw;
     display: flex;
-    flex-direction: column;
-    gap: 40px;  
+    gap: 40px;
+    padding: 5%;
     
+}
+.principal__contenido__tituloytexto{
+    width: 574px;
+    height: 816px;
+    top: 329px;
+    left: 380px;
+    gap: 0px;
+    opacity: 0px;
+
 }
 body{
     background-color: #000000;
@@ -89,77 +96,21 @@ body{
     text-align: left;
 }
 
-.principal__contenido__subtitulo{
-    
-    display: flex;
-    font-family: "Krona one";
-    font-size: 24px;
-    font-weight: 400;
-    line-height: 36px;
-    text-align: center;
-    width: 320px;
-    height: 40px;
-    gap: 0px;
 
-}
-.principal__contenido__botones{
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;    
-    align-items: center;
-    padding: 32px;
-    width: 381px;
-    height: fit-content;
-    top: 627px;
-    left: 461px;
-    gap: 32px;
-    opacity: 0px;
-}
 
-.botondered{
-    display: flex;
-    flex-wrap:wrap-reverse;
-    justify-content: center;
-    gap: 16px;    
-    padding: 16px;
-    width: 378px;
-    height: 68px;     
-    align-content:space-around;
-    text-align: center;
-    font-family: "Montserrat", sans-serif;
-    font-size: 24px;
-    font-weight: 600;
-    line-height: 36px;
-    text-decoration: none;   
-    color: #F6F6F6;
-    border-radius: 8px ;
-    border: 2px solid #22D4FD;
-    
-    
-}
-.botondered:hover {
-    background-color: #22D4FD;
-    color: black;
-    border: 2px solid #22D4FD;
-
-}
-.logored{
-    width: 32px;
-    height: 32px;
-    gap: 0px;
-    opacity: 0px;
-    
-
-}
-strong{
-    color: #22D4FD;
-}
 
 .imagen{
     
     margin: 20px;
-    width: 50%;
-    height: 50%;
+    /*width: 50%;
+    /*height: 50%;*/
+    width: 488px;
+    height: 550px;
+    top: 235px;
+    left: 1030px;
+    gap: 0px;
+    opacity: 0px;
+
 }
 .footer {
     background-color: #22D4FD;
@@ -169,6 +120,7 @@ strong{
     align-items: center;
     justify-content: center;
     padding: 24px;
+    width: 100%;
 }   
 
 .footer__text{
